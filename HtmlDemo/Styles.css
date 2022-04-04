@@ -1,0 +1,88 @@
+﻿
+.menu {
+    height: 70px;
+
+    background-color: powderblue;
+
+}
+
+    .menu ul {
+        display: inline-flex;
+        float: right;
+    }
+
+        .menu ul li {
+            list-style-type: none;
+            margin-right: 41px;
+        }
+
+            .menu ul li a {
+                text-decoration: none;
+                color: #C0392B;
+                font-size: 23px;
+                font-weight: 500;
+            }
+
+a:hover {
+    color: #1B4F72 !important;
+}
+
+.banner {
+    background-image: url(shop.jpg);
+    height: 305px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content {
+}
+
+.footer {
+    height: 70px;
+    background-color: powderblue;
+}
+
+.footer ul li {
+    list-style-type: none;
+    margin-right: 41px;
+}
+    .footer ul {
+        color:brown;
+        display: inline-flex;
+        text-decoration: none;
+        float: left;
+    }
+
+.footer {
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.Contact {
+    background-image: url("Shopping.jpg");
+    background-size: cover;
+    background-color: aqua;
+    font: 300;
+    font-style: italic;
+}
+.Blogs {
+    background-image: url("Shopping.jpg");
+    background-size: cover;
+    background-color: burlywood;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    margin: auto;
+    font-size: larger;
+}
+.About {
+    background-image: url("Shopping.jpg");
+    background-size: cover;
+    background-color: coral;
+    font-size: large;
+    letter-spacing:initial;
+    font-family: 'Times New Roman';
+}
