@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function addition()
+        {
+            var num1 = document.getElementById("n1").value;
+            var num2 = document.getElementById("n2").value;
+           var  sum = parseFloat(num1) + parseInt(num2);
+            document.getElementById("n3").value = sum;
+        }
+        function Substraction() {
+            var num1 = document.getElementById("n1").value;
+            var num2 = document.getElementById("n2").value;
+            var sum = parseFloat(num1) - parseInt(num2);
+            document.getElementById("n3").value = sum;
+        }
+        function Multiplication() {
+            var num1 = document.getElementById("n1").value;
+            var num2 = document.getElementById("n2").value;
+            var sum = parseFloat(num1) * parseInt(num2);
+            document.getElementById("n3").value = sum;
+        }
+        function Division() {
+            var num1 = document.getElementById("n1").value;
+            var num2 = document.getElementById("n2").value;
+            var sum = parseFloat(num1) / parseInt(num2);
+            document.getElementById("n3").value = sum;
+        }
+
+        
+    </script>
+</head>
+<body>
+    <p>
+        Enter 1st Number:<input type="text" id="n1" />
+    </p>
+    <p>
+        Enter 2nd Number:<input type="text" id="n2" />
+    </p>
+    <p>
+        Result=<input type="text"id="n3"/> 
+    </p>
+    <p>
+        <input type="button" value="Add" onclick="addition()"/>
+        <input type="button" value="sub" onclick="Substraction()"/>
+        <input type="button" value="mul"onclick="Multiplication()" />
+        <input type="button" value="div" onclick="Division()"/>
+    </p>
+</body>
+</html>
